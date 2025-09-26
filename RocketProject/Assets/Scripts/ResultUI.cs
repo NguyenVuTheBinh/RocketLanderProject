@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,13 +8,15 @@ public class ResultUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI resultLanding;
     [SerializeField] private TextMeshProUGUI finalStats;
-    [SerializeField] private Button restartButton;
+    [SerializeField] private TextMeshProUGUI retryAndContinueButtonText;
+    [SerializeField] private Button retryAndContinueButton;
 
+    private Action continueTheGame;
     private void Awake()
     {
-        restartButton.onClick.AddListener(() =>
+        retryAndContinueButton.onClick.AddListener(() =>
         {
-            SceneManager.LoadScene(0);
+            continueTheGame();
         });
     }
     private void Start()
@@ -28,12 +31,19 @@ public class ResultUI : MonoBehaviour
         if (e.landingType == Lander.LandingType.Success)
         {
             resultLanding.text = "<color=#00FF00>SUCCESSFUL LANDING!</color>";
+            retryAndContinueButtonText.text = "CONTINUE";
+            continueTheGame = GameManager.Instance.GetNextLevel;
         } else if (e.landingType == Lander.LandingType.LandingOnTerrain)
         {
             resultLanding.text = "<color=#FF0000>CRASH!</color>";
-        } else
+            retryAndContinueButtonText.text = "RETRY";
+            continueTheGame = GameManager.Instance.RetryLevel;
+        }
+        else
         {
             resultLanding.text = "<color=#FFAA00>LANDING FAIL!</color>";
+            retryAndContinueButtonText.text = "RETRY";
+            continueTheGame = GameManager.Instance.RetryLevel;
         }
 
         float finalScore = e.score + GameManager.Instance.GetScore();

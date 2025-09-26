@@ -27,7 +27,8 @@ public class StatsUI : MonoBehaviour
         velocityRightArrow.gameObject.SetActive(speedY >= 0);
         velocityLeftArrow.gameObject.SetActive(speedY < 0);
 
-        textStatsUI.text = GameManager.Instance.GetScore() + "\n" +
+        textStatsUI.text = GameManager.Instance.GetCurrentLevel() + "\n" +
+            GameManager.Instance.GetScore() + "\n" +
             GameManager.Instance.GetTime() + "\n" +
             speedX + "\n" +
             speedY + "\n";
