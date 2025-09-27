@@ -60,9 +60,10 @@ public class Lander : MonoBehaviour
         {
             default:
             case State.WaitingToStart:
-                if(Keyboard.current.wKey.isPressed || 
-                    Keyboard.current.aKey.isPressed ||
-                    Keyboard.current.dKey.isPressed)
+                if(GameInput.Instance.IsUpActionPressed() ||
+                    GameInput.Instance.IsLeftActionPressed() ||
+                    GameInput.Instance.IsRightActionPressed() ||
+                    GameInput.Instance.GetMovementAction() != Vector2.zero)
                 {
                     landerRigidbody2D.gravityScale = GRAVITY_NORMAL;
                     SetState(State.Normal);
@@ -74,21 +75,22 @@ public class Lander : MonoBehaviour
                     Debug.Log("out of fuel!");
                     return;
                 }
-                if (Keyboard.current.wKey.isPressed)
+                float deadZone = .4f;
+                if (GameInput.Instance.IsUpActionPressed() || GameInput.Instance.GetMovementAction().y > deadZone)
                 {
                     float pushForce = 700f;
                     landerRigidbody2D.AddForce(pushForce * transform.up * Time.deltaTime);
                     FuelConsume(pushUpFuelRequire);
                     OnUpForce?.Invoke(this, EventArgs.Empty);
                 }
-                if (Keyboard.current.aKey.isPressed)
+                if (GameInput.Instance.IsLeftActionPressed() || GameInput.Instance.GetMovementAction().x < -deadZone)
                 {
                     float rotateForce = +75f;
                     landerRigidbody2D.AddTorque(rotateForce * Time.deltaTime);
                     FuelConsume(sideEngineFuelRequire);
                     OnRightForce?.Invoke(this, EventArgs.Empty);
                 }
-                if (Keyboard.current.dKey.isPressed)
+                if (GameInput.Instance.IsRightActionPressed() || GameInput.Instance.GetMovementAction().x > deadZone)
                 {
                     float rotateForce = -75f;
                     landerRigidbody2D.AddTorque(rotateForce * Time.deltaTime);

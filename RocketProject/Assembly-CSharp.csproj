@@ -65,10 +65,12 @@
     <Compile Include="Assets\Scripts\Lander.cs" />
     <Compile Include="Assets\Scripts\ResultUI.cs" />
     <Compile Include="Assets\Scripts\Fuel.cs" />
+    <Compile Include="Assets\Scripts\GameInput.cs" />
     <Compile Include="Assets\Scripts\LandingPadVisual.cs" />
     <Compile Include="Assets\Scripts\LandingPad.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\StatsUI.cs" />
+    <Compile Include="Assets\InputActions.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\CinemachineCameraZoom2D.cs" />
     <Compile Include="Assets\Scripts\LanderVisual.cs" />

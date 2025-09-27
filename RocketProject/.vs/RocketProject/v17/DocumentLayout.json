@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "D:\\SideProject\\RocketLanderProject\\RocketProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|d:\\sideproject\\rocketlanderproject\\rocketproject\\assets\\scripts\\cinemachinecamerazoom2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\resultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\sideproject\\rocketlanderproject\\rocketproject\\assets\\inputaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\inputaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\cinemachinecamerazoom2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cinemachinecamerazoom2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\resultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\statsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\statsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\landervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputAction.cs",
+              "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\InputAction.cs",
+              "RelativeDocumentMoniker": "Assets\\InputAction.cs",
+              "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\InputAction.cs",
+              "RelativeToolTip": "Assets\\InputAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:49:00.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GameInput.cs",
+              "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
+              "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:23:20.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -66,12 +100,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAuwCQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T01:19:06.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T01:19:06.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GameLevel.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLevel.cs",
@@ -79,12 +112,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameLevel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T13:46:33.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T13:46:33.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ResultUI.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ResultUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ResultUI.cs",
@@ -97,19 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Lander.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\Lander.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lander.cs",
               "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\Lander.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lander.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAYwG4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFwAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T15:54:52.188Z"
+              "WhenOpened": "2025-09-19T15:54:52.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LanderVisual.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\LanderVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LanderVisual.cs",
@@ -121,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LandingPad.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\LandingPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LandingPad.cs",
@@ -133,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LandingPadVisual.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\LandingPadVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LandingPadVisual.cs",
@@ -145,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Fuel.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\Fuel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fuel.cs",
@@ -157,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Coin.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Coin.cs",
@@ -169,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "StatsUI.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\StatsUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUI.cs",
@@ -181,16 +214,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CinemachineCameraZoom2D.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\CinemachineCameraZoom2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CinemachineCameraZoom2D.cs",
               "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\CinemachineCameraZoom2D.cs",
               "RelativeToolTip": "Assets\\Scripts\\CinemachineCameraZoom2D.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wB0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T17:55:14.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T17:55:14.167Z"
             }
           ]
         }
