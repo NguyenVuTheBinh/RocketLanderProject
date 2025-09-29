@@ -13,6 +13,7 @@ public class Lander : MonoBehaviour
     public event EventHandler OnRightForce;
     public event EventHandler OnBeforeForce;
     public event EventHandler OnCoinPickup;
+    public event EventHandler OnFuelPickup;
     public event EventHandler<OnStateChangedEventArgs> OnStateChanged;
     public class OnStateChangedEventArgs : EventArgs
     {
@@ -190,6 +191,7 @@ public class Lander : MonoBehaviour
     {
         if(collider2D.gameObject.TryGetComponent(out Fuel fuel))
         {
+            OnFuelPickup?.Invoke(this, EventArgs.Empty);
             float fuelRefill = 100f;
             FuelRefill(fuelRefill);
             fuel.SelfDestroy();

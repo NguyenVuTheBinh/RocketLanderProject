@@ -61,17 +61,24 @@
     <Analyzer Include="D:\unity\6000.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PickupThing\Fuel.cs" />
+    <Compile Include="Assets\Scripts\ScriptsUI\MainMenuUI.cs" />
+    <Compile Include="Assets\Scripts\ScriptsUI\ResultUI.cs" />
+    <Compile Include="Assets\Scripts\ScriptsUI\EndGameUI.cs" />
     <Compile Include="Assets\Scripts\GameLevel.cs" />
     <Compile Include="Assets\Scripts\Lander.cs" />
-    <Compile Include="Assets\Scripts\ResultUI.cs" />
-    <Compile Include="Assets\Scripts\Fuel.cs" />
+    <Compile Include="Assets\Scripts\ScriptsUI\StatsUI.cs" />
+    <Compile Include="Assets\Scripts\PickupThing\Coin.cs" />
+    <Compile Include="Assets\Scripts\SoundScripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
+    <Compile Include="Assets\Scripts\ScriptsUI\PauseUI.cs" />
     <Compile Include="Assets\Scripts\LandingPadVisual.cs" />
     <Compile Include="Assets\Scripts\LandingPad.cs" />
-    <Compile Include="Assets\Scripts\Coin.cs" />
-    <Compile Include="Assets\Scripts\StatsUI.cs" />
+    <Compile Include="Assets\Scripts\SoundScripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\SoundScripts\EngineSfx.cs" />
     <Compile Include="Assets\InputActions.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\CinemachineCameraZoom2D.cs" />
     <Compile Include="Assets\Scripts\LanderVisual.cs" />
   </ItemGroup>

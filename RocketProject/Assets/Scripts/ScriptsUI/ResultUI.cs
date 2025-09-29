@@ -46,7 +46,7 @@ public class ResultUI : MonoBehaviour
             continueTheGame = GameManager.Instance.RetryLevel;
         }
 
-        float finalScore = e.score + GameManager.Instance.GetScore();
+        float finalScore = GameManager.Instance.GetScore();
 
         finalStats.text = Mathf.Round(e.relativeVelocity)*2 + "\n" +
             Mathf.Round(90 - (Mathf.Acos(e.angleLanding) * 180 / Mathf.PI)) + "\n" +
