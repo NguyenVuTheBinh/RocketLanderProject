@@ -11,11 +11,15 @@ public class GameManager : MonoBehaviour
 
     private static int levelNumber = 1;
     private static float totalScore = 0;
+    private static float time = 0;
+    private static int coinAmount = 0;
 
     public static void ResetData()
     {
         levelNumber = 1;
         totalScore = 0;
+        time = 0;
+        coinAmount = 0;
     }
 
     public event EventHandler OnGamePause;
@@ -25,8 +29,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CinemachineCamera cinemachineCamera;
 
     private float score;
-    private float coinScore = 500f;
-    private float time;
+    private int coin = 500;
     private bool isTimerActive;
 
     private void Awake()
@@ -92,12 +95,17 @@ public class GameManager : MonoBehaviour
 
     private void Lander_OnCoinPickup(object sender, System.EventArgs e)
     {
-        AddScore(coinScore);
+        AddCoin(coin);
     }
 
     private void AddScore(float addScoreAmount)
     {
         score += addScoreAmount;
+    }
+
+    private void AddCoin(int addCoinAmount)
+    {
+        coinAmount += addCoinAmount;
     }
 
     public float GetTime()

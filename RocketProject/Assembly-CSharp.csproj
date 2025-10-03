@@ -61,6 +61,7 @@
     <Analyzer Include="D:\unity\6000.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PickupThing\CoinVisual.cs" />
     <Compile Include="Assets\Scripts\PickupThing\Fuel.cs" />
     <Compile Include="Assets\Scripts\ScriptsUI\MainMenuUI.cs" />
     <Compile Include="Assets\Scripts\ScriptsUI\ResultUI.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\Scripts\SoundScripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
     <Compile Include="Assets\Scripts\ScriptsUI\PauseUI.cs" />
+    <Compile Include="Assets\Scripts\ShopPad.cs" />
     <Compile Include="Assets\Scripts\LandingPadVisual.cs" />
     <Compile Include="Assets\Scripts\LandingPad.cs" />
     <Compile Include="Assets\Scripts\SoundScripts\SoundManager.cs" />

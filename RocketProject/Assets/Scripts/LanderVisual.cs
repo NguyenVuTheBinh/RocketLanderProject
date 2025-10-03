@@ -28,7 +28,8 @@ public class LanderVisual : MonoBehaviour
 
     private void Lander_OnLanded(object sender, Lander.OnLandedEventArgs e)
     {
-        if (e.landingType == Lander.LandingType.Success)
+        if (e.landingType == Lander.LandingType.Success ||
+            e.landingType == Lander.LandingType.LandingOnShop)
             return;
         else
         {

@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 6073343532572286800}
   - component: {fileID: 949945619967595341}
   - component: {fileID: 3463004284241543362}
+  - component: {fileID: 8681771440633149422}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -182,3 +183,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc5ab17626a099408a873b98d1596cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
+--- !u!114 &8681771440633149422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6170272442427943616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6eb0f1265047940be210494c44469a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinVisual
+  coinSprite: {fileID: 261005961373089164}

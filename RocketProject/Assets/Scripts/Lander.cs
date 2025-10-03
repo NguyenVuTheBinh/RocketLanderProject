@@ -38,7 +38,8 @@ public class Lander : MonoBehaviour
     private State state;
     public enum LandingType
     {
-        Success, LandingOnTerrain, LandingUnstable, LandingTooHard,
+        Success, LandingOnShop,
+        LandingOnTerrain, LandingUnstable, LandingTooHard, 
     }
 
     private float maxFuelAmount = 100f;
@@ -123,7 +124,8 @@ public class Lander : MonoBehaviour
             float landingAngle = Vector2.Dot(Vector2.up, transform.up);
             float landingAngleAllow = 0.9f;
 
-            if (!collision2D.gameObject.TryGetComponent(out LandingPad landingPad))
+            if (!collision2D.gameObject.TryGetComponent(out LandingPad landingPad) &&
+                !collision2D.gameObject.TryGetComponent(out ShopPad shopPad))
             {
                 OnLanded?.Invoke(this, new OnLandedEventArgs
                 {
@@ -160,6 +162,19 @@ public class Lander : MonoBehaviour
                     score = 0,
                 });
                 SetState(State.GameOver);
+                return;
+            }
+            if (collision2D.gameObject.TryGetComponent(out shopPad))
+            {
+                OnLanded?.Invoke(this, new OnLandedEventArgs
+                {
+                    landingType = LandingType.LandingOnShop,
+                    angleLanding = 0,
+                    relativeVelocity = 0,
+                    multiplier = 0,
+                    score = 0,
+                });
+                SetState(State.WaitingToStart);
                 return;
             }
 

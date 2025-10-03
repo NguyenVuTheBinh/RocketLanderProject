@@ -28,6 +28,8 @@ public class ResultUI : MonoBehaviour
 
     private void Lander_OnLanded(object sender, Lander.OnLandedEventArgs e)
     {
+        if (e.landingType == Lander.LandingType.LandingOnShop)
+            return;
         if (e.landingType == Lander.LandingType.Success)
         {
             resultLanding.text = "<color=#00FF00>SUCCESSFUL LANDING!</color>";
