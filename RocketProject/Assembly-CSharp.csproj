@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\ScriptsUI\PauseUI.cs" />
     <Compile Include="Assets\Scripts\ShopPad.cs" />
     <Compile Include="Assets\Scripts\LandingPadVisual.cs" />
+    <Compile Include="Assets\Scripts\ScriptsUI\ShopUI.cs" />
     <Compile Include="Assets\Scripts\LandingPad.cs" />
     <Compile Include="Assets\Scripts\SoundScripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\SoundScripts\EngineSfx.cs" />

@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\SideProject\\RocketLanderProject\\RocketProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|d:\\sideproject\\rocketlanderproject\\rocketproject\\assets\\scripts\\pickupthing\\coinvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupthing\\coinvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|d:\\sideproject\\rocketlanderproject\\rocketproject\\assets\\scripts\\pickupthing\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupthing\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|d:\\sideproject\\rocketlanderproject\\rocketproject\\assets\\scripts\\scriptsui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\scriptsui\\resultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsui\\resultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\landervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\landervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|d:\\sideproject\\rocketlanderproject\\rocketproject\\assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\gamelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\soundscripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundscripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\shoppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shoppad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\pickupthing\\coinvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupthing\\coinvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\pickupthing\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupthing\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\landervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\landervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\soundscripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundscripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63572636-76DF-49D3-ADAB-BF552CFD3967}|Assembly-CSharp.csproj|D:\\SideProject\\RocketLanderProject\\RocketProject\\assets\\scripts\\landingpadvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,6 +95,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShopUI.cs",
+              "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\ShopUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsUI\\ShopUI.cs",
+              "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\ShopUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsUI\\ShopUI.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wBMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T16:03:06.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CoinVisual.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\PickupThing\\CoinVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PickupThing\\CoinVisual.cs",
@@ -98,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PickupThing\\CoinVisual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T12:23:59.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T12:23:59.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Coin.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\PickupThing\\Coin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PickupThing\\Coin.cs",
@@ -111,12 +127,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PickupThing\\Coin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T12:12:53.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T12:12:53.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ShopPad.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ShopPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShopPad.cs",
@@ -124,12 +139,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ShopPad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T10:40:36.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T10:40:36.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\SoundScripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundScripts\\MusicManager.cs",
@@ -137,12 +151,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SoundScripts\\MusicManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T11:21:41.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T11:21:41.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EngineSfx.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\SoundScripts\\EngineSfx.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundScripts\\EngineSfx.cs",
@@ -154,20 +167,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ResultUI.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\ResultUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsUI\\ResultUI.cs",
               "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\ResultUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScriptsUI\\ResultUI.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwB8AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T10:26:35.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\SoundScripts\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SoundScripts\\SoundManager.cs",
@@ -179,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EndGameUI.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\EndGameUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsUI\\EndGameUI.cs",
@@ -191,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MainMenuUI.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\MainMenuUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsUI\\MainMenuUI.cs",
@@ -203,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PauseUI.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\ScriptsUI\\PauseUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsUI\\PauseUI.cs",
@@ -215,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -227,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
@@ -239,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GameInput.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
@@ -251,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "GameLevel.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\GameLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameLevel.cs",
@@ -259,8 +272,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T13:46:33.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T13:46:33.967Z"
             },
             {
               "$type": "Document",
@@ -270,14 +282,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lander.cs",
               "ToolTip": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\Lander.cs",
               "RelativeToolTip": "Assets\\Scripts\\Lander.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAADgv34AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAArwH4AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T15:54:52.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LanderVisual.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\LanderVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LanderVisual.cs",
@@ -285,12 +297,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LanderVisual.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAASwB8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T14:10:24.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T14:10:24.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LandingPad.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\LandingPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LandingPad.cs",
@@ -298,12 +309,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LandingPad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T07:57:52.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T07:57:52.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LandingPadVisual.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\LandingPadVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LandingPadVisual.cs",
@@ -311,12 +321,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LandingPadVisual.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T10:09:47.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:09:47.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CinemachineCameraZoom2D.cs",
               "DocumentMoniker": "D:\\SideProject\\RocketLanderProject\\RocketProject\\Assets\\Scripts\\CinemachineCameraZoom2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CinemachineCameraZoom2D.cs",
