@@ -42,6 +42,10 @@ public class Lander : MonoBehaviour
         LandingOnTerrain, LandingUnstable, LandingTooHard, 
     }
 
+    //Lander Stats:
+    private float pushForce = 700f;
+    private float rotateForce = 75f;
+
     private float maxFuelAmount = 100f;
     private float fuelAmount;
     private float pushUpFuelRequire = 10f;
@@ -53,7 +57,7 @@ public class Lander : MonoBehaviour
 
         fuelAmount = maxFuelAmount;
         landerRigidbody2D = GetComponent<Rigidbody2D>();
-        landerRigidbody2D.gravityScale = 0f;
+        
     }
     private void FixedUpdate()
     {
@@ -62,7 +66,10 @@ public class Lander : MonoBehaviour
         {
             default:
             case State.WaitingToStart:
-                if(GameInput.Instance.IsUpActionPressed() ||
+                landerRigidbody2D.gravityScale = 0f;
+                landerRigidbody2D.linearVelocity = Vector2.zero;
+                landerRigidbody2D.angularVelocity = 0f;
+                if (GameInput.Instance.IsUpActionPressed() ||
                     GameInput.Instance.IsLeftActionPressed() ||
                     GameInput.Instance.IsRightActionPressed() ||
                     GameInput.Instance.GetMovementAction() != Vector2.zero)
@@ -80,22 +87,22 @@ public class Lander : MonoBehaviour
                 float deadZone = .4f;
                 if (GameInput.Instance.IsUpActionPressed() || GameInput.Instance.GetMovementAction().y > deadZone)
                 {
-                    float pushForce = 700f;
+                    
                     landerRigidbody2D.AddForce(pushForce * transform.up * Time.deltaTime);
                     FuelConsume(pushUpFuelRequire);
                     OnUpForce?.Invoke(this, EventArgs.Empty);
                 }
                 if (GameInput.Instance.IsLeftActionPressed() || GameInput.Instance.GetMovementAction().x < -deadZone)
                 {
-                    float rotateForce = +75f;
-                    landerRigidbody2D.AddTorque(rotateForce * Time.deltaTime);
+                    float rotateForceLeft = +rotateForce;
+                    landerRigidbody2D.AddTorque(rotateForceLeft * Time.deltaTime);
                     FuelConsume(sideEngineFuelRequire);
                     OnRightForce?.Invoke(this, EventArgs.Empty);
                 }
                 if (GameInput.Instance.IsRightActionPressed() || GameInput.Instance.GetMovementAction().x > deadZone)
                 {
-                    float rotateForce = -75f;
-                    landerRigidbody2D.AddTorque(rotateForce * Time.deltaTime);
+                    float rotateForceRight = -rotateForce;
+                    landerRigidbody2D.AddTorque(rotateForceRight * Time.deltaTime);
                     FuelConsume(sideEngineFuelRequire);
                     OnLeftForce?.Invoke(this, EventArgs.Empty);
                 }
@@ -246,5 +253,10 @@ public class Lander : MonoBehaviour
     {
         return landerRigidbody2D.linearVelocityY;
     }
+    public void UpgradePushForce(float upgradeAmount)
+    {
+        pushForce = pushForce + upgradeAmount;
+        Debug.Log(pushForce);
 
+    }
 }

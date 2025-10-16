@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
         totalScore = 0;
         time = 0;
         coinAmount = 0;
+        SpeedUpgrade.Instance.ResetSpeedLevel();
     }
 
     public event EventHandler OnGamePause;

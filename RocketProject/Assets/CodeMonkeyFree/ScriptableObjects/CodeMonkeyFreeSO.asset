@@ -14,41 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: lunarLanderFree
-  lastShownTimestamp: 1759565230
+  lastShownTimestamp: 1760624039
   lastUpdateResponse:
     version: 1.00
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1759565230
+  checkedLastUpdateTimestamp: 1760624040
   lastQOTDResponse:
-    questionId: 227
-    questionText: 'Is this valid code?
-
-      <p>Color? myColor = null;</p>'
-    answerA: Yes
-    answerB: No, myColor is a struct and cannot be null
-    answerC: 
+    questionId: 232
+    questionText: What is JSON and what is it useful for?
+    answerA: JavaScript Over Node, programming pattern
+    answerB: JavaScript Object Notation, data format
+    answerC: Jumping-Signal Over Nonce, crypto concept
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1759565230
+  lastQotdTimestamp: 1760624040
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleSep25Synty.png
-    topText: After 1 year there's a new Synty Humble Bundle! DON'T MISS IT!
-    topLink: humblebundle
-    bottomText: My 10+ Years of C# Knowledge in 1 Course!
-    bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1759565230
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/chrisZJun24_LastCall.png
+    topText: Learn how to get more WISHLISTS and Sell more COPIES of your Games!
+    topLink: howtomarketagame
+    bottomText: DONT MISS the latest important trends, sign up for my FREE Weekly
+      Newsletter!
+    bottomLink: gamedevreport
+  lastDynamicHeaderTimestamp: 1760624040
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1759565230
+  websiteLatestMessageTimestamp: 1760624040
   websiteLatestVideos:
     videos:
-    - youTubeId: vhflNElicXU
-      title: Optimization is awesome, but do NOT make this mistake!
-    - youTubeId: _UadeZn6kI8
-      title: Should you use UI Toolkit or Unity UI?
-    - youTubeId: E7OBm60vUCY
-      title: BEST NEW Visual Assets to INSPIRE YOU!
-    - youTubeId: 5GqRR8-yYvQ
-      title: How I find AWESOME Game Dev stuff!
-  websiteLatestVideosTimestamp: 1759565230
+    - youTubeId: bTQZU_CV9UY
+      title: TOP 10 FREE NEW Assets OCTOBER 2025!
+    - youTubeId: 6jjwMLflLOU
+      title: This AWESOME Tool MULTIPLIES all your assets!
+    - youTubeId: iTpoP8M6dxg
+      title: 8 QUICK Unity Tips to make BETTER Games!
+    - youTubeId: RBgFEaRn_jg
+      title: Is YouTube EASY MONEY compared to Game Dev?
+  websiteLatestVideosTimestamp: 1760624040

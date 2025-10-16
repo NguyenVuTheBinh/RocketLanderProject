@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\ScriptsUI\ShopUI.cs" />
     <Compile Include="Assets\Scripts\LandingPad.cs" />
     <Compile Include="Assets\Scripts\SoundScripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\New folder\SpeedUpgrade.cs" />
     <Compile Include="Assets\Scripts\SoundScripts\EngineSfx.cs" />
     <Compile Include="Assets\InputActions.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
