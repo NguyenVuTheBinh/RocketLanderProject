@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 
     public event EventHandler OnGamePause;
     public event EventHandler OnGameUnpause;
+    public event EventHandler OnCoinChange;
 
     [SerializeField] private List<GameLevel> gameLevelList;
     [SerializeField] private CinemachineCamera cinemachineCamera;
@@ -104,9 +105,11 @@ public class GameManager : MonoBehaviour
         score += addScoreAmount;
     }
 
-    private void AddCoin(int addCoinAmount)
+    public void AddCoin(int addCoinAmount)
     {
         coinAmount += addCoinAmount;
+        OnCoinChange?.Invoke(this, EventArgs.Empty);
+        Debug.Log(coinAmount);
     }
 
     public float GetTime()
@@ -117,6 +120,10 @@ public class GameManager : MonoBehaviour
     public float GetScore()
     {
         return Mathf.Round(score);
+    }
+    public int GetCoin()
+    {
+        return coinAmount;
     }
 
     public int GetCurrentLevel()

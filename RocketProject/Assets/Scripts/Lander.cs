@@ -43,13 +43,13 @@ public class Lander : MonoBehaviour
     }
 
     //Lander Stats:
-    private float pushForce = 700f;
+    private float pushForce = 800f;
     private float rotateForce = 75f;
 
     private float maxFuelAmount = 100f;
     private float fuelAmount;
-    private float pushUpFuelRequire = 10f;
-    private float sideEngineFuelRequire = 3f;
+    private float pushUpFuelRequire = 15f;
+    private float sideEngineFuelRequire = 5f;
 
     private void Awake()
     {
@@ -255,7 +255,7 @@ public class Lander : MonoBehaviour
     }
     public void UpgradePushForce(float upgradeAmount)
     {
-        pushForce = pushForce + upgradeAmount;
+        pushForce += upgradeAmount;
         Debug.Log(pushForce);
 
     }
