@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
         SpeedUpgrade.Instance.ResetSpeedLevel();
     }
 
+    private int thisLevelInitialCoin;
+    private int thisLevelInitialSpeedLevel;
+
     public event EventHandler OnGamePause;
     public event EventHandler OnGameUnpause;
     public event EventHandler OnCoinChange;
@@ -74,6 +77,8 @@ public class GameManager : MonoBehaviour
     private void LoadCurrentLevel()
     {
         GameLevel gameLevel = GetGameLevel();
+        thisLevelInitialCoin = coinAmount;
+        thisLevelInitialSpeedLevel = SpeedUpgrade.Instance.GetSpeedLevel();
         GameLevel spawnGameLevel = Instantiate(gameLevel, Vector3.zero, Quaternion.identity);
         Lander.Instance.transform.position = spawnGameLevel.GetSpawnPosition();
         cinemachineCamera.Target.TrackingTarget = spawnGameLevel.GetInitialCameraTarget();
@@ -109,7 +114,6 @@ public class GameManager : MonoBehaviour
     {
         coinAmount += addCoinAmount;
         OnCoinChange?.Invoke(this, EventArgs.Empty);
-        Debug.Log(coinAmount);
     }
 
     public float GetTime()
@@ -147,6 +151,8 @@ public class GameManager : MonoBehaviour
 
     public void RetryLevel()
     {
+        coinAmount = thisLevelInitialCoin;
+        SpeedUpgrade.Instance.SpeedLevelUpdate(thisLevelInitialSpeedLevel);
         SceneLoader.LoadScene(SceneLoader.Scene.InGameScene);
     }
     public void PauseAndUnpauseGame()

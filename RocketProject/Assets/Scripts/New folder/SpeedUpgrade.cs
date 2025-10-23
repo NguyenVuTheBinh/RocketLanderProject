@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,9 +12,10 @@ public class SpeedUpgrade : MonoBehaviour
     [SerializeField] private TextMeshProUGUI cost;
     [SerializeField] private GameObject maxLevelAnnouncement;
 
+    public event EventHandler OnSpeedLevelChange;
+
     private static int speedLevel = 1;
     private int maxLevel = 5;
-    private int speedScalePerLevel = 200;
     private int upgradeCost;
     private int costPerLevel = 100;
 
@@ -59,6 +61,10 @@ public class SpeedUpgrade : MonoBehaviour
     {
         upgradeCost = speedLevel * costPerLevel;
     }
+    public int GetSpeedLevel()
+    {
+        return speedLevel;
+    }
     private void CheckMaxLevel()
     {
         if (speedLevel == maxLevel)
@@ -76,8 +82,10 @@ public class SpeedUpgrade : MonoBehaviour
         GetUpgradeCost();
         if (upgradeCost <= GameManager.Instance.GetCoin())
         {
+            if (speedLevel >= maxLevel)
+                return;
             speedLevel++;
-            Lander.Instance.UpgradePushForce(speedScalePerLevel);
+            SpeedLevelUpdate(speedLevel);
             GameManager.Instance.AddCoin(-upgradeCost);
             speedLevelText.text = "Speed level " + speedLevel;
             GetUpgradeCost();
@@ -89,5 +97,10 @@ public class SpeedUpgrade : MonoBehaviour
             return;
         }
         SetCostText();
+    }
+    public void SpeedLevelUpdate(int newLevel)
+    {
+        speedLevel = newLevel;
+        OnSpeedLevelChange?.Invoke(this, EventArgs.Empty);
     }
 }

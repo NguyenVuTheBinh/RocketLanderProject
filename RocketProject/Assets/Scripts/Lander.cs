@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 public class Lander : MonoBehaviour
 {
     private const float GRAVITY_NORMAL = 0.7f;
+    private const float BASED_PUSH_FORCE = 800f;
     public static Lander Instance {  get; private set; }
 
     private Rigidbody2D landerRigidbody2D;
@@ -43,7 +44,9 @@ public class Lander : MonoBehaviour
     }
 
     //Lander Stats:
-    private float pushForce = 800f;
+    private float pushForce;
+    private int speedScalePerLevel = 200;
+
     private float rotateForce = 75f;
 
     private float maxFuelAmount = 100f;
@@ -56,9 +59,22 @@ public class Lander : MonoBehaviour
         Instance = this;
 
         fuelAmount = maxFuelAmount;
+        //Speed level start at 1
+        pushForce = BASED_PUSH_FORCE + (SpeedUpgrade.Instance.GetSpeedLevel() - 1) * speedScalePerLevel;
         landerRigidbody2D = GetComponent<Rigidbody2D>();
         
     }
+    private void Start()
+    {
+        SpeedUpgrade.Instance.OnSpeedLevelChange += SpeedUpgrade_OnSpeedLevelChange;
+    }
+
+    private void SpeedUpgrade_OnSpeedLevelChange(object sender, EventArgs e)
+    {
+        //Speed level start at 1
+        pushForce = BASED_PUSH_FORCE + (SpeedUpgrade.Instance.GetSpeedLevel() - 1) * speedScalePerLevel;
+    }
+
     private void FixedUpdate()
     {
         OnBeforeForce?.Invoke(this, EventArgs.Empty);
